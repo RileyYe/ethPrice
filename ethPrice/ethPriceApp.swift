@@ -91,7 +91,7 @@ class PriceViewModel: ObservableObject {
           Button("MATIC") {
             priceView.setCoinConfigure(coinConfigure: CoinConfigure.MATIC)
           }
-          Button("退出") { NSApp.terminate(nil) }
+          Button("Exit") { NSApp.terminate(nil) }
         }
       },
       label: {
